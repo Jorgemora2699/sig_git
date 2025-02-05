@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kennedy - Techo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+        .contenedor {
+            border: 2px solid black;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: white;
+        }
+        h2 {
+            margin: 0;
+            padding-bottom: 10px;
+        }
+        .imagen, .mapa {
+            border: 2px solid black;
+            margin: 10px;
+            padding: 10px;
+            width: 320px;
+            height: 220px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            flex-direction: column;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <h2>Kennedy - Techo</h2>
+        <div class="imagen">
+            <p>Imagen</p>
+            <img src="techo_kennedy.jpg" alt="Techo Kennedy">
+        </div>
+        <div class="mapa">
+            <p>Mapa</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.7195190585673!2d-74.1395933256542!3d4.609710643406827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99838b12b2f5%3A0x8b2d3b5284c59a12!2sKennedy%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1645824381234!5m2!1ses!2sco" 
+                allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+</body>
+</html>
